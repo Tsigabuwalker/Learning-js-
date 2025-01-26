@@ -22,3 +22,9 @@ console.log(person.department);
 let selectedColors = ['red', 'blue'];
 console.log(selectedColors[0]);
 console.log(typeof(selectedColors));
+
+//function in js
+function greeting(proffession){
+    console.log("Hello tsigabu " + proffession)
+};
+greeting("Software Engineer");
