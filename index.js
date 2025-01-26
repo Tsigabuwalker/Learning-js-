@@ -18,3 +18,7 @@ console.log(person);
 console.log(person.name);
 console.log(person.cgpa);
 console.log(person.department);
+
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors[0]);
+console.log(typeof(selectedColors));
