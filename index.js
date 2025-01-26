@@ -24,7 +24,14 @@ console.log(selectedColors[0]);
 console.log(typeof(selectedColors));
 
 //function in js
-function greeting(proffession){
-    console.log("Hello tsigabu " + proffession)
+function greeting(place){
+    console.log("Hello,I am Tsigabu, a Software Engineer at " + place )
 };
-greeting("Software Engineer");
+greeting("Google");
+
+function square(number){
+    return number * number;
+
+}
+let numb = square(4);
+console.log(numb);
